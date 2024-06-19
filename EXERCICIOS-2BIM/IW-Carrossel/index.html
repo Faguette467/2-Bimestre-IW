@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Imagens</title>
+    <link rel="stylesheet" href="ind.css">
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="img/bando.jpg" alt="Imagem 1">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/bandle-city/" target="_blank"> Bandópolis</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/demacia.jpg" alt="Imagem 2">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/demacia/" target="_blank"> Demacia</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/freljord.jpg" alt="Imagem 3">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/freljord/" target="_blank"> Freljord</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/ilhasombra.jpg" alt="Imagem 4">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/shadow-isles/" target="_blank"> Ilha das Sombras</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/ionia.jpg" alt="Imagem 5">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/ionia/" target="_blank"> Ionia</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/ixtal.jpg" alt="Imagem 6">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/ixtal/" target="_blank"> Ixtal</a>
+                </div>
+            </div>
+            
+            <div class="carousel-slide">
+                <img src="img/noxus.jpg" alt="Imagem 7">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/noxus/" target="_blank"> Noxus</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/void.jpg" alt="Imagem 8">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/void/" target="_blank"> O Vazio</a>
+                </div>
+            </div>
+            
+            <div class="carousel-slide">
+                <img src="img/piltover.jpg" alt="Imagem 9">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/piltover/" target="_blank"> Piltover</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/aguas.jpg" alt="Imagem 10">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/bilgewater/" target="_blank"> Águas de Sentina</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/shurima.jpg" alt="Imagem 11">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/shurima/" target="_blank"> Shurima</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/zaun.jpg" alt="Imagem 12">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/zaun/" target="_blank"> Zaun</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <img src="img/targon.jpg" alt="Imagem 13">
+                <div class="carousel-caption">
+                    <a href="https://universe.leagueoflegends.com/pt_BR/region/mount-targon/" target="_blank">Monte Targon</a>
+                </div>
+            </div>
+            
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+
+
+    </div>
+
+    <div class="thumbnail-container">
+        <div class="thumbnail" onclick="currentSlide(0)">
+            <img src="img/bando.jpg" alt="Miniatura 1">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(1)">
+            <img src="img/demacia.jpg" alt="Miniatura 2">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(2)">
+            <img src="img/freljord.jpg" alt="Miniatura 3">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(3)">
+            <img src="img/ilhasombra.jpg" alt="Miniatura 4">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(4)">
+            <img src="img/ionia.jpg" alt="Miniatura 5">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(5)">
+            <img src="img/ixtal.jpg" alt="Miniatura 6">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(6)">
+            <img src="img/noxus.jpg" alt="Miniatura 7">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(7)">
+            <img src="img/void.jpg" alt="Miniatura 8">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(8)">
+            <img src="img/piltover.jpg" alt="Miniatura 9">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(9)">
+            <img src="img/aguas.jpg" alt="Miniatura 10">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(10)">
+            <img src="img/shurima.jpg" alt="Miniatura 11">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(11)">
+            <img src="img/zaun.jpg" alt="Miniatura 12">
+        </div>
+        <div class="thumbnail" onclick="currentSlide(11)">
+            <img src="img/targon.jpg" alt="Miniatura 13">
+        </div>
+    </div>
+    
+    <script src="ind.js"></script>
+</body>
+</html>
